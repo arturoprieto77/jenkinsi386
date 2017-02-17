@@ -1,2 +1,3 @@
-Defaults:jenkins !requiretty
-jenkins ALL = NOPASSWD: ALL
+# User privilege specification
+root        ALL=(ALL:ALL) ALL
+jenkins     ALL=(ALL:ALL) ALL
